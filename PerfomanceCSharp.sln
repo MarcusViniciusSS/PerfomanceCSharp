@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CallCenter.Extensions", "CallCenter.Extensions\CallCenter.Extensions.csproj", "{32DE66FC-FC66-4D99-84CE-84863F78816D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Benchmark.Extensions", "Benchmark.Extensions\Benchmark.Extensions.csproj", "{B1FAB7B7-0C72-45BD-8391-A883175B84D8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32DE66FC-FC66-4D99-84CE-84863F78816D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32DE66FC-FC66-4D99-84CE-84863F78816D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32DE66FC-FC66-4D99-84CE-84863F78816D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32DE66FC-FC66-4D99-84CE-84863F78816D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1FAB7B7-0C72-45BD-8391-A883175B84D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1FAB7B7-0C72-45BD-8391-A883175B84D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1FAB7B7-0C72-45BD-8391-A883175B84D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1FAB7B7-0C72-45BD-8391-A883175B84D8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6DE3ED9C-930A-40F9-A080-DBBC0D9D79B6}
+	EndGlobalSection
+EndGlobal
