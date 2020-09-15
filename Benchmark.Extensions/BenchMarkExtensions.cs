@@ -11,9 +11,11 @@ namespace Benchmark.Extensions
     [RPlotExporter]
     [MemoryDiagnoser]
     [RankColumn]
+    [SimpleJob(RuntimeMoniker.Net461)]
+    [SimpleJob(RuntimeMoniker.NetCoreApp31)]
     public class BenchMarkExtensions
     {
-        [Params(1000000)]
+        [Params(100)]
         public int N;
 
         [Benchmark(Description = "Esse método é o original")]
