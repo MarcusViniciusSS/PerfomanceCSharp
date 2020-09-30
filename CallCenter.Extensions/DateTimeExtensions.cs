@@ -33,19 +33,6 @@ namespace CallCenter.Extensions
 
         public static string GenerateProtocolV2(this DateTime entity) => $"{entity.Year}{entity.Month}{entity.Day}{entity.Hour}{entity.Minute}{entity.Second}{RND.Next(12, 999999)}";
 
-        public static string GenerateProtocolLastest(this DateTime entity)
-        {
-           return new StringBuilder()
-                .Append(entity.Year)
-                .Append(entity.Month)
-                .Append(entity.Day)
-                .Append(entity.Hour)
-                .Append(entity.Minute)
-                .Append(entity.Second)
-                .Append(RND.Next(12, 999999))
-                .ToString();
-        }
-
         public static string GenerateProtocolV3(this DateTime entity)
         {
             var sb = new StringBuilder()
@@ -58,6 +45,19 @@ namespace CallCenter.Extensions
                  .Append(RND.Next(12, 999999));
 
             return sb.ToString();
+        }
+
+        public static string GenerateProtocolLastest(this DateTime entity)
+        {
+            return new StringBuilder()
+                 .Append(entity.Year)
+                 .Append(entity.Month)
+                 .Append(entity.Day)
+                 .Append(entity.Hour)
+                 .Append(entity.Minute)
+                 .Append(entity.Second)
+                 .Append(RND.Next(12, 999999))
+                 .ToString();
         }
     }
 }
